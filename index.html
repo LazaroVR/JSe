@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Site</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body id="pg">
+    <header>
+        <h1>Exercicio 02</h1>
+    </header>
+    <main>
+        <section>
+            <div id="res">
+                <h1 id="titulo">
+                   
+                </h1>
+                <div id="img">
+                    
+                </div>
+            </div>
+            
+            <aside>
+            <div id="titulo"
+                onchange="titulo()">
+                <h3>Configurar Titulo</h3>
+                    <p>
+                    <br>
+                    Tamanho:
+                    <select id="ttitulo">
+                            <option></option>
+                            <option>Pequeno</option>
+                            <option>Medio</option>
+                            <option>Grande</option>
+                    </select>
+                    <br>
+                    <br>
+                    Cor:
+                    <select id="tcolor">
+                            <option value=""></option>
+                            <option>Azul</option>
+                            <option>Preto</option>
+                            <option>Verde</option>
+                    </select>
+                    <br>
+                    <br>
+                    Alinhamento:
+                        <select id="taling">
+                            <option value=""></option>
+                            <option>Esquerda</option>
+                            <option>Centro</option>
+                            <option>Direita</option>
+                        </select>
+                </p>
+            </div>
+
+            <div id="imagem" onchange="imagem()">
+                <h3>Configurar Imagem</h3>
+                    <p> 
+                        <br>
+                        Tamanho:
+                        
+                        <select id="imgt">
+                            <option></option>
+                            <option>Pequena</option>
+                            <option>Media</option>
+                            <option>Grande</option>
+                        </select>
+                    <br>
+                    <br>
+                    Cor da borda:
+                
+                    <select id="imgbc">
+                        <option></option>
+                        <option>Azul</option>
+                        <option>Preto</option>
+                        <option>Verde</option>
+                    </select>
+                    <br>
+                    <br>
+                    Alinhamento:
+                    <select id="imgal">
+                        <option></option>
+                        <option>Esquerda</option>
+                        <option>Centro</option>
+                        <option>Direita</option>
+                    </select>
+                </p>
+            </div>
+
+            <div id="pagina" onchange="fundo()">
+                <h3>Configurar Pagina</h3>
+                    <p>
+                        <br>
+                        Cor de fundo:
+                        
+                        <select id="fcolor">
+                            <option></option>
+                            <option>Azul</option>
+                           <option>Preto</option>
+                            <option>Verde</option>
+                        </select>
+                    </p>
+            </div>
+        </aside>
+    </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido por Lázaro Vitor
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
